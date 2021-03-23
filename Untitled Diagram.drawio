@@ -1,11 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T03:25:09.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="Yuo-DbDwceVQwIcUBKWE" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T03:27:50.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="932rq0wQ9jeJQ3zEJ-7v" version="14.5.0" type="github">
   <diagram id="z4um92cud5BBd-nCjn4I" name="Page-1">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F1odNd1j7roIcS8h98x_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="F1odNd1j7roIcS8h98x_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F1odNd1j7roIcS8h98x_-1" target="F1odNd1j7roIcS8h98x_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-1" value="DynamicGoodsEditor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F1odNd1j7roIcS8h98x_-2" target="F1odNd1j7roIcS8h98x_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-2" value="properties" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-4" value="PageConfig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-5" value="B 端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-6" value="download-dynamic-goods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F1odNd1j7roIcS8h98x_-8" value="C 端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
