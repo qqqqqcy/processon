@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T08:16:03.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="eGBr-T3g37Hh1Is6a6Ay" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T08:21:48.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="F--A91F-NuauOcBB743s" version="14.5.0" type="github">
   <diagram id="8VmGbmryBdtOHnzADvic" name="第 1 页">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,14 +7,14 @@
         <mxCell id="J3F17-GDOB80CXrCu-dr-1" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="360" y="173.33" width="160" height="213.33" as="geometry" />
         </mxCell>
-        <mxCell id="J3F17-GDOB80CXrCu-dr-2" value="成本大小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="385" y="160" width="110" height="30" as="geometry" />
+        <mxCell id="J3F17-GDOB80CXrCu-dr-2" value="成本小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="395" y="160" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J3F17-GDOB80CXrCu-dr-4" value="运算速度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="550" y="340" width="110" height="30" as="geometry" />
+        <mxCell id="J3F17-GDOB80CXrCu-dr-4" value="运算速度快" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J3F17-GDOB80CXrCu-dr-5" value="存储空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="220" y="340" width="110" height="30" as="geometry" />
+        <mxCell id="J3F17-GDOB80CXrCu-dr-5" value="存储空间大" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
