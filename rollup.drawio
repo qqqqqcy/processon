@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-05T07:39:09.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="3BAwSy6GgxfUb7gto8Iz" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-05T07:45:31.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="UOuIXopEWbwRjhdrkMUQ" version="14.9.3" type="github">
   <diagram id="jKP7sBDpfqMwmEzG3EQ9" name="第 1 页">
-    <mxGraphModel dx="6414" dy="4450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="513" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,6 +338,18 @@
         </mxCell>
         <mxCell id="0bQcgtlpd2lwGw6iiIkm-438" value="ast/walk.js - 节点深度遍历" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2560" y="160" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0bQcgtlpd2lwGw6iiIkm-486" value="Example 案例" style="swimlane;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=top;html=0;startSize=30;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="320" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0bQcgtlpd2lwGw6iiIkm-488" value="// main.js&lt;br&gt;&lt;br&gt;&lt;div&gt;import { foo, bar } from &#39;./foo.js&#39;&lt;/div&gt;&lt;div&gt;const a = 1&lt;/div&gt;&lt;div&gt;foo()&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0bQcgtlpd2lwGw6iiIkm-486">
+          <mxGeometry x="40" y="40" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0bQcgtlpd2lwGw6iiIkm-491" value="&lt;div&gt;// foo.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export const foo = () =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&#39;foo&#39;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export const bar = () =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&#39;bar&#39;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0bQcgtlpd2lwGw6iiIkm-486">
+          <mxGeometry x="40" y="150" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0bQcgtlpd2lwGw6iiIkm-494" value="&lt;div&gt;// 输出&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;const a = 1&lt;/div&gt;&lt;div&gt;const foo = () =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&#39;foo&#39;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;foo()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="0bQcgtlpd2lwGw6iiIkm-486">
+          <mxGeometry x="40" y="320" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
