@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T08:30:20.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" version="15.9.4" etag="j20_1V1rm9x888WvGgI3" type="github"><diagram id="vdQ3aTWSMApDrdwH3dWy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-13T09:13:43.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="epvwyi1nRMlYH1Q3Q0-2" version="15.9.4" type="github">
+  <diagram id="vdQ3aTWSMApDrdwH3dWy" name="第 1 页">
+    <mxGraphModel dx="1969" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iCJVmoPsNbWgVivGObOR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-1" target="iCJVmoPsNbWgVivGObOR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-2" target="iCJVmoPsNbWgVivGObOR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-2" value="gt-jmy-h5-base-actions 组件&lt;br&gt;点击跳转 deeplink" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-4" target="iCJVmoPsNbWgVivGObOR-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-8" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCJVmoPsNbWgVivGObOR-7">
+          <mxGeometry x="-0.3306" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-4" target="iCJVmoPsNbWgVivGObOR-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1023" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-24" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCJVmoPsNbWgVivGObOR-22">
+          <mxGeometry x="-0.2049" relative="1" as="geometry">
+            <mxPoint x="-329" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-4" value="basisDownload&amp;nbsp; 存在&lt;br&gt;schemaUrl 存在&lt;br&gt;&lt;b&gt;isBaiduApp()&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="300" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-6" target="iCJVmoPsNbWgVivGObOR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-6" value="@baidu/m-client-sdk&lt;br&gt;downSdk&lt;br&gt;downSdk.Base.deeplinkWithCb&lt;br&gt;deeplink()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="310" width="212.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-10" target="iCJVmoPsNbWgVivGObOR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-10" value="mip-sjh-basis-download&amp;nbsp;组件&lt;br&gt;getDownloadSdk().then()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-14" target="iCJVmoPsNbWgVivGObOR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-18" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCJVmoPsNbWgVivGObOR-17">
+          <mxGeometry x="-0.2047" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-14" target="iCJVmoPsNbWgVivGObOR-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1770" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-26" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCJVmoPsNbWgVivGObOR-25">
+          <mxGeometry x="-0.6889" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-14" value="clientCheck()&lt;br&gt;是否手百" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-16" target="iCJVmoPsNbWgVivGObOR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-16" value="执行端能力跳转" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-19" value="结束" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;arcSize=50;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCJVmoPsNbWgVivGObOR-21" target="iCJVmoPsNbWgVivGObOR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCJVmoPsNbWgVivGObOR-21" value="normalJump()&lt;br&gt;普通跳转" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
