@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T13:09:51.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="iTUWrveNT7WF_m0WFJML" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T13:16:25.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="ee0-2sKjrjwxqPHAfN2h" version="16.2.2" type="github">
   <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
-    <mxGraphModel dx="4593" dy="2677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3937" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
           <mxGeometry y="420" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-107" value="setData" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1030" width="280" height="60" as="geometry">
+          <mxGeometry x="80" y="1000" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -245,7 +245,7 @@
           <mxGeometry y="380" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-168" value="setAppDatas" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1150" width="280" height="60" as="geometry">
+          <mxGeometry x="80" y="1120" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -299,7 +299,7 @@
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-194" value="receiver&#xa;接收 app 状态变更" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1270" width="280" height="550" as="geometry">
+          <mxGeometry x="80" y="1240" width="280" height="550" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -352,7 +352,7 @@
           <mxGeometry y="510" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-218" value="processShow&#xa;展示预置下载进度" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1840" width="280" height="210" as="geometry">
+          <mxGeometry x="120" y="1810" width="280" height="210" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
