@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T12:20:54.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="WH-8IMjNgjoSurltvfbf" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T12:48:13.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="UkLwlpekGHzdvIrvyVG6" version="16.2.2" type="github">
   <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
-    <mxGraphModel dx="1621" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1531" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
           <mxGeometry y="260" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-82" value="initDownloadInfo&#xa;基础下载组件 mount 完成" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1020" width="280" height="130" as="geometry">
+          <mxGeometry x="120" y="1020" width="280" height="130" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -151,21 +151,6 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-121" value="    异常埋点 DOWNLOAD_CHANNEL_ERROR" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
           <mxGeometry y="420" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-97" value="&lt;span&gt;&lt;b&gt;dealDownloadInfoRes&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;处理从接口获取到的信息&lt;br&gt;&lt;/b&gt;&lt;div&gt;setData: appDatas&lt;br&gt;&lt;/div&gt;&lt;div&gt;setData:&amp;nbsp;appInfo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="890" y="650" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-98" value="&lt;span&gt;&lt;b&gt;initAndUpdateAppStatus&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;初始化下载状态&lt;br&gt;&lt;/b&gt;&lt;div&gt;initDownload: initDownloadSdkFn&lt;/div&gt;&lt;div&gt;setRegisteredIds 注册 id&lt;br&gt;&lt;/div&gt;&lt;div&gt;setData:&amp;nbsp;downStatusShow&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="900" y="750" width="220" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-99" value="&lt;span&gt;&lt;b&gt;initDownloadSdkFn&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;初始化 download sdk&lt;/b&gt;&lt;br&gt;new DownloadSDK()&lt;br&gt;setData: downloadSdk&lt;br&gt;download.on(&#39;status&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="920" y="880" width="220" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-100" value="&lt;b&gt;download.on(&#39;status&#39;) &lt;br&gt;订阅下载状态&lt;br&gt;&lt;/b&gt;&lt;span&gt;发埋点&lt;br&gt;uadateAppDatasAndReceiver()&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="940" y="1020" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-101" value="&lt;span&gt;&lt;b&gt;uadateAppDatasAndReceiver&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;更新状态&lt;/b&gt;&lt;br&gt;setAppDatas()&lt;br&gt;receiver()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1110" width="220" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-107" value="setData" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="1170" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
@@ -175,7 +160,7 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-122" value="fetchDownloadInfo()&#xa;请求包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="870" width="280" height="300" as="geometry">
+          <mxGeometry x="600" y="870" width="280" height="300" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -207,7 +192,7 @@
           <mxGeometry y="270" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-135" value="dealDownloadInfoRes&#xa;处理包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1190" width="280" height="150" as="geometry">
+          <mxGeometry x="640" y="1190" width="280" height="150" as="geometry">
             <mxRectangle x="600" y="1190" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -224,7 +209,7 @@
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-145" value="dealIOSDownloadInfoRes&#xa;处理 iOS 包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1360" width="280" height="60" as="geometry">
+          <mxGeometry x="680" y="1360" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -232,7 +217,7 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-150" value="dealAndroidDownloadInfoRes&#xa;处理 Android 包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1440" width="280" height="90" as="geometry">
+          <mxGeometry x="680" y="1440" width="280" height="90" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -243,7 +228,7 @@
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-153" value="initAndUpdateAppStatus&#xa;初始化、更新包状态" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1550" width="280" height="430" as="geometry">
+          <mxGeometry x="640" y="1550" width="280" height="410" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -278,10 +263,10 @@
           <mxGeometry y="310" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-166" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
-          <mxGeometry y="350" width="280" height="40" as="geometry" />
+          <mxGeometry y="350" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-167" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
-          <mxGeometry y="390" width="280" height="40" as="geometry" />
+          <mxGeometry y="380" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-168" value="setAppDatas" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="1250" width="280" height="60" as="geometry">
@@ -292,7 +277,7 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-170" value="initDownloadSdkFn&#xa;初始化下载 SDK" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="2010" width="280" height="330" as="geometry">
+          <mxGeometry x="680" y="1980" width="280" height="330" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -326,13 +311,69 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-189" value="        埋点 mip-sjh-new-download" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-170">
           <mxGeometry y="300" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-190" value="mount" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="2360" width="280" height="60" as="geometry">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-190" value="uadateAppDatasAndReceiver" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2330" width="280" height="90" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-191" value="埋点 mip-sjh-new-download-mounted" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-192" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-193" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-194" value="receiver&#xa;接收 app 状态变更" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1330" width="280" height="550" as="geometry">
+            <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-209" value="设置 isMaskShow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-195" value="设置 appDatas" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-196" value="processShow()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-197" value="if 下载状态等于已完成、已安装" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-210" value="        埋点 mip-sjh-new-download" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="150" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-202" value="设置 childDownloadResult&#xa;iconShow、process、btnText、statusInfo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="180" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-211" value="setIcon()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="220" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-203" value="if 需要处理「多个下载组件下载中」时的逻辑" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="250" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-212" value="设置 mainDownloadResult&#xa;iconShow、process、btnText" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="280" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-213" value="    if  当前组件不是吸底组件、且处于下载中" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#E8DCBA;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="320" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-214" value="        修改 childDownloadResult 文案为「正在下载」" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="350" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-215" value="        修改 childDownloadResult 进度为 0" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="380" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-216" value="    if  当前组件不是吸底组件、且处于暂停中" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#E8DCBA;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="410" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-217" value="        修改 childDownloadResult 进度为 0" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="440" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-205" value="if 注册上的组件发布下载状态&#xa;$loki.getData(&#39;registerFlag&#39;)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="470" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-206" value="    $loki.emitEvent&#xa;    DOWNLOAD_CONNECT_UTILS.APP_DATA" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry y="510" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
