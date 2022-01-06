@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T13:22:40.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="c5k9iTYJxOEOJt_6PTkw" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T13:24:15.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="5e0u3yP6OeJzPAR_20IH" version="16.2.2" type="github">
   <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
-    <mxGraphModel dx="2297" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3937" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_I2nfff96B0rnVyIfxpO-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-58" target="_I2nfff96B0rnVyIfxpO-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-58" value="created&#xa;初始化" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="280" height="120" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
@@ -18,6 +21,9 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-61" value="getDynamicCtaInfo()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=none;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-58">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-62" target="_I2nfff96B0rnVyIfxpO-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-62" value="beforeMount&#xa;mount 之前" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="220" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
@@ -25,6 +31,9 @@
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-63" value="$loki.getServiceAsync anti-download" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-62">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-67" target="_I2nfff96B0rnVyIfxpO-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-67" value="mount" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="300" width="280" height="60" as="geometry">
