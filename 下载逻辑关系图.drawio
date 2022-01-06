@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T08:44:32.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="16.2.2" etag="X7QA7Xrgn6tEFaDiJ7bD" type="github"><diagram id="3Y0k3PHw66sQwWoMijhV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-06T09:29:04.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="qhCR_38GuOhfWx0tD_Cp" version="16.2.2" type="github">
+  <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
+    <mxGraphModel dx="1621" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_I2nfff96B0rnVyIfxpO-6" value="&lt;div&gt;&lt;b&gt;created&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;处理 pageConfig、获取 cta 信息&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-9" value="&lt;span&gt;&lt;b&gt;beforeMount&lt;/b&gt;&lt;br&gt;&lt;/span&gt;初始化反作弊" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-10" value="&lt;span style=&quot;&quot;&gt;mip-sjh-new-download&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;新下载组件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-11" value="&lt;span&gt;&lt;b&gt;mounted&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;埋点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-12" target="_I2nfff96B0rnVyIfxpO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-12" value="&lt;span&gt;&lt;b&gt;basicDowloadLoaded&lt;br&gt;&lt;/b&gt;注册反作弊服务&lt;br&gt;网盟埋点&lt;br&gt;&lt;/span&gt;initDownloadInfo&lt;br&gt;initAutoDirectLaunchInfo&lt;br&gt;&lt;span&gt;赋值吸底按钮&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-16" target="_I2nfff96B0rnVyIfxpO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-16" value="&lt;span&gt;&lt;b&gt;initDownloadInfo&lt;/b&gt;&lt;br&gt;downloadTools.initDownload&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-18" value="&lt;span&gt;mip-sjh-basis-download&lt;br&gt;基础下载组件&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="40" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-19" value="&lt;b&gt;initDownload&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;setData: appDatas&lt;br&gt;&lt;/div&gt;&lt;div&gt;setData:&amp;nbsp;adDevice&lt;/div&gt;&lt;div&gt;Android: fetchDownloadInfo&lt;/div&gt;&lt;div&gt;iOS:&amp;nbsp;initAndUpdateAppStatus&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="120" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-23" target="_I2nfff96B0rnVyIfxpO-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="260" />
+              <mxPoint x="940" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-23" target="_I2nfff96B0rnVyIfxpO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-23" value="&lt;b&gt;fetchDownloadInfo&lt;/b&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;请求 packageInfo 接口获取包信息&lt;br&gt;&lt;/b&gt;没获取到则异常埋点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-24" value="&lt;span&gt;&lt;b&gt;dealDownloadInfoRes&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;处理从接口获取到的信息&lt;br&gt;&lt;/b&gt;&lt;div&gt;setData: appDatas&lt;br&gt;&lt;/div&gt;&lt;div&gt;setData:&amp;nbsp;appInfo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-31" target="_I2nfff96B0rnVyIfxpO-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="500" />
+              <mxPoint x="930" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-31" value="&lt;span&gt;&lt;b&gt;initAndUpdateAppStatus&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;初始化下载状态&lt;br&gt;&lt;/b&gt;&lt;div&gt;initDownload: initDownloadSdkFn&lt;/div&gt;&lt;div&gt;setRegisteredIds 注册 id&lt;br&gt;&lt;/div&gt;&lt;div&gt;setData:&amp;nbsp;downStatusShow&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="420" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-33" value="&lt;span&gt;&lt;b&gt;initDownloadSdkFn&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;初始化 download sdk&lt;/b&gt;&lt;br&gt;downloadSdk()&lt;br&gt;setData: downloadSdk" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="220" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
