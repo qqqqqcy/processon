@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T06:48:55.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="-PMGMurd4HQf6_-L88WT" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T06:57:15.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="ZjSwBfC3modaw8JAc8cZ" version="16.2.2" type="github">
   <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
-    <mxGraphModel dx="1969" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1451" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,11 +8,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-58" value="created&#xa;初始化" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="280" height="120" as="geometry">
+          <mxGeometry x="80" y="240" width="280" height="120" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-59" value="$loki.setData DOWNLOAD_DATA_APP_INFO" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-58">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-59" value="$loki.setData DOWNLOAD_DATA_APP_INFO" style="text;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-58">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-60" value="getPageConfigWidgetInfo()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=none;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-58">
@@ -25,18 +25,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-62" value="beforeMount&#xa;mount 之前" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="220" width="280" height="60" as="geometry">
+          <mxGeometry x="80" y="380" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-63" value="$loki.getServiceAsync anti-download" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-62">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-63" value="$loki.getServiceAsync anti-download" style="text;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-62">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-67" target="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-67" value="mount" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="280" height="60" as="geometry">
+          <mxGeometry x="80" y="460" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -44,20 +44,20 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-71" value="basicDowloadLoaded&#xa;基础下载组件 mount 完成" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="380" width="280" height="300" as="geometry">
+          <mxGeometry x="80" y="540" width="280" height="300" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-72" value="设置 downlaodServer" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-72" value="设置 downlaodServer" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-73" value="设置 directLaunchTools" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-73" value="设置 directLaunchTools" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-74" value="设置 downloadTools" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-74" value="设置 downloadTools" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-76" value="registeService()&#xa;    $loki.registeService antiVerifyCb" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-76" value="registeService()&#xa;    $loki.registeService antiVerifyCb" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="120" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-77" value="如果是网盟环境&#xa;埋点 mip-sjh-new-download" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=none;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
@@ -73,7 +73,7 @@
           <mxGeometry y="260" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-82" value="initDownloadInfo&#xa;下载初始化" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="700" width="280" height="150" as="geometry">
+          <mxGeometry x="120" y="860" width="280" height="150" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -86,18 +86,18 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-233" value="if 非开发者明细组件" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-82">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-85" value="    downloadTools.initDownload()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-82">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-85" value="    downloadTools.initDownload()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-82">
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-91" value="initDownload&#xa;初始化下载逻辑" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="280" height="450" as="geometry">
+          <mxGeometry x="560" y="240" width="280" height="450" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-92" value="setData: appDatas" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-92" value="setData: appDatas" style="text;strokeColor=#6c8ebf;fillColor=#C9D6E8;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-109" value="setData: adDevice" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-109" value="setData: adDevice" style="text;strokeColor=#6c8ebf;fillColor=#C9D6E8;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-94" value="if 是 Android 或 PC 端且有 docid" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
@@ -136,8 +136,8 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-121" value="    异常埋点 DOWNLOAD_CHANNEL_ERROR" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-91">
           <mxGeometry y="420" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-107" value="setData" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1000" width="280" height="60" as="geometry">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-107" value="setData" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -145,7 +145,7 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-122" value="fetchDownloadInfo()&#xa;请求包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="550" width="280" height="300" as="geometry">
+          <mxGeometry x="600" y="710" width="280" height="300" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -161,7 +161,7 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-128" value="doAjax.then" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-122">
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-129" value="    $loki.setData DOWNLOAD_DATA_APP_INFO " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-122">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-129" value="    $loki.setData DOWNLOAD_DATA_APP_INFO " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-122">
           <mxGeometry y="150" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-131" value="    dealDownloadInfoRes()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-122">
@@ -177,7 +177,7 @@
           <mxGeometry y="270" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-135" value="dealDownloadInfoRes&#xa;处理包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="870" width="280" height="150" as="geometry">
+          <mxGeometry x="640" y="1030" width="280" height="150" as="geometry">
             <mxRectangle x="600" y="1190" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -194,30 +194,30 @@
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-145" value="dealIOSDownloadInfoRes&#xa;处理 iOS 包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1040" width="280" height="60" as="geometry">
+          <mxGeometry x="680" y="1200" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-147" value="setData appInfo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-145">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-147" value="setData appInfo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-145">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-150" value="dealAndroidDownloadInfoRes&#xa;处理 Android 包信息" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1120" width="280" height="90" as="geometry">
+          <mxGeometry x="680" y="1280" width="280" height="90" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-152" value="setData appDatas" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-150">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-152" value="setData appDatas" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-150">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-151" value="setData appInfo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-150">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-151" value="setData appInfo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-150">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-153" value="initAndUpdateAppStatus&#xa;初始化、更新包状态" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1230" width="280" height="410" as="geometry">
+          <mxGeometry x="640" y="1390" width="280" height="410" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-154" value="$loki.getData registeredIds" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-154" value="$loki.getData registeredIds" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-155" value="initDownloadSdkFn()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
@@ -226,13 +226,13 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-156" value="if 未注册过" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-157" value="    $loki.setData registeredIds、multi、registerFlag" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-157" value="    $loki.setData registeredIds、multi、registerFlag" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-158" value="    $loki.onEvent  &#xa;    DOWNLOAD_CONNECT_UTILS.PROCESS" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-158" value="    $loki.onEvent  &#xa;    DOWNLOAD_CONNECT_UTILS.PROCESS" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="150" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-159" value="        setData downStatusShow " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-159" value="        setData downStatusShow " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="190" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-161" value="else" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
@@ -241,20 +241,20 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-162" value="    if 有动态商品 或者 页面下载组件的个数大于 1" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#E8DCBA;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="250" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-163" value="        $loki.setData multi = true" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-163" value="        $loki.setData multi = true" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="280" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-164" value="    $loki.onEvent  &#xa;    DOWNLOAD_CONNECT_UTILS.APP_DATA" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-164" value="    $loki.onEvent  &#xa;    DOWNLOAD_CONNECT_UTILS.APP_DATA" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="310" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-166" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-166" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="350" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-167" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-167" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#B3BECF;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry y="380" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-168" value="setAppDatas" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1120" width="280" height="60" as="geometry">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-168" value="setAppDatas" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B3BECF;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1280" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -262,14 +262,14 @@
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-170" value="initDownloadSdkFn&#xa;初始化下载 SDK" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1660" width="280" height="330" as="geometry">
+          <mxGeometry x="680" y="1820" width="280" height="330" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-171" value="donwload = new DownloadSDK() 实例化下载 SDK" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-170">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-176" value="setData downloadSdk " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-170">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-176" value="setData downloadSdk " style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#C9D6E8;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-170">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-173" value="if 未注册过" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-170">
@@ -297,18 +297,18 @@
           <mxGeometry y="300" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-190" value="uadateAppDatasAndReceiver" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="2010" width="280" height="90" as="geometry">
+          <mxGeometry x="720" y="2170" width="280" height="90" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-192" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-192" value="        receiver()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-193" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#BCC8D9;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-193" value="        setAppDatas()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#B3BECF;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-190">
           <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-194" value="receiver&#xa;接收 app 状态变更" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1240" width="280" height="550" as="geometry">
+          <mxGeometry x="80" y="1400" width="280" height="550" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -354,40 +354,40 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-217" value="        修改 childDownloadResult 进度为 0" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
           <mxGeometry y="440" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-205" value="if 注册上的组件发布下载状态&#xa;$loki.getData(&#39;registerFlag&#39;)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-205" value="if 注册上的组件发布下载状态&#xa;$loki.getData(&#39;registerFlag&#39;)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
           <mxGeometry y="470" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-206" value="    $loki.emitEvent&#xa;    DOWNLOAD_CONNECT_UTILS.APP_DATA" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-206" value="    $loki.emitEvent&#xa;    DOWNLOAD_CONNECT_UTILS.APP_DATA" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-194">
           <mxGeometry y="510" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-218" value="processShow&#xa;展示预置下载进度" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1810" width="280" height="210" as="geometry">
+          <mxGeometry x="120" y="1970" width="280" height="210" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-222" value="if 符合条件" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-223" value="if&#xa;$loki.getData multi&#xa;$loki.getData zone&#xa;$loki.getData commonDialogVisible" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-223" value="if&#xa;$loki.getData multi&#xa;$loki.getData zone&#xa;$loki.getData commonDialogVisible" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fillColor=#f8cecc;rounded=0;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
           <mxGeometry y="60" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-224" value="if isMultiPackage()&#xa;    downloadTools.getRegisteredIds" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-224" value="if isMultiPackage()&#xa;    downloadTools.getRegisteredIds" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
           <mxGeometry y="130" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-225" value="    $loki.emitEvent&#xa;    DOWNLOAD_CONNECT_UTILS.PROCESS" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-225" value="    $loki.emitEvent&#xa;    DOWNLOAD_CONNECT_UTILS.PROCESS" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-218">
           <mxGeometry y="170" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-229" value="            this.initAutoDirectLaunchInfo()&#xa;直投初始化" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="870" width="280" height="60" as="geometry">
+          <mxGeometry x="120" y="1030" width="280" height="60" as="geometry">
             <mxRectangle x="280" y="130" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-232" value="downloadTools.initAutoDirectLaunch" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-229">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-232" value="downloadTools.initAutoDirectLaunch" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#82b366;fillColor=#d5e8d4;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-229">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-237" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-155" target="_I2nfff96B0rnVyIfxpO-170">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1030" y="1600" as="targetPoint" />
+            <mxPoint x="1030" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-131" target="_I2nfff96B0rnVyIfxpO-135">
@@ -399,8 +399,8 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-113" target="_I2nfff96B0rnVyIfxpO-135">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="245" />
-              <mxPoint x="960" y="870" />
+              <mxPoint x="960" y="405" />
+              <mxPoint x="960" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -410,50 +410,107 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-141" target="_I2nfff96B0rnVyIfxpO-150">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1000" y="1005" />
-              <mxPoint x="1000" y="1120" />
+              <mxPoint x="1000" y="1165" />
+              <mxPoint x="1000" y="1280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-115" target="_I2nfff96B0rnVyIfxpO-122">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880" y="335" />
+              <mxPoint x="880" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-119" target="_I2nfff96B0rnVyIfxpO-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="615" />
+              <mxPoint x="1040" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-117" target="_I2nfff96B0rnVyIfxpO-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-119" target="_I2nfff96B0rnVyIfxpO-153">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1040" y="455" />
-              <mxPoint x="1040" y="1230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-127" target="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1040" y="655" />
-              <mxPoint x="1040" y="1230" />
+              <mxPoint x="1040" y="815" />
+              <mxPoint x="1040" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-130" target="_I2nfff96B0rnVyIfxpO-153">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1040" y="775" />
-              <mxPoint x="1040" y="1230" />
+              <mxPoint x="1040" y="935" />
+              <mxPoint x="1040" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-255" value="&lt;font style=&quot;font-size: 22px&quot;&gt;下载逻辑关系图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="10" width="170" height="20" as="geometry" />
+          <mxGeometry x="80" y="30" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-256" value="&lt;div style=&quot;font-size: 14px&quot;&gt;Download Logic Diagram&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="80" y="32" width="170" height="20" as="geometry" />
+          <mxGeometry x="80" y="52" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-258" value="mip-sjh-new-download" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=14;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-259" value="mip-sjh-basis-download" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=14;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="555" y="180" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-260" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;jumpStyle=gap;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="210" as="sourcePoint" />
+            <mxPoint x="1022.2222222222222" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-261" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Comic Sans MS;fontSize=14;jumpStyle=gap;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="2314" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-187" target="_I2nfff96B0rnVyIfxpO-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-166" target="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1755" />
+              <mxPoint x="560" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-192" target="_I2nfff96B0rnVyIfxpO-194">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2215" />
+              <mxPoint x="560" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-78" target="_I2nfff96B0rnVyIfxpO-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-79" target="_I2nfff96B0rnVyIfxpO-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="785" />
+              <mxPoint x="430" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I2nfff96B0rnVyIfxpO-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="_I2nfff96B0rnVyIfxpO-85" target="_I2nfff96B0rnVyIfxpO-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="995" />
+              <mxPoint x="520" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
