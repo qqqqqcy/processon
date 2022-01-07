@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T06:57:15.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="ZjSwBfC3modaw8JAc8cZ" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T07:00:15.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="Zt9IupQ9Il_THmqpkGpc" version="16.2.2" type="github">
   <diagram id="3Y0k3PHw66sQwWoMijhV" name="Page-1">
-    <mxGraphModel dx="1451" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3445" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="_I2nfff96B0rnVyIfxpO-79" value="initAutoDirectLaunchInfo()" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=none;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="230" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_I2nfff96B0rnVyIfxpO-80" value="根据条件&#xa;$loki.setData downloadFixBottom" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=none;rounded=0;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
+        <mxCell id="_I2nfff96B0rnVyIfxpO-80" value="根据条件&#xa;$loki.setData downloadFixBottom" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#b85450;rounded=0;fillColor=#f8cecc;" vertex="1" parent="_I2nfff96B0rnVyIfxpO-71">
           <mxGeometry y="260" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-82" value="initDownloadInfo&#xa;下载初始化" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;" vertex="1" parent="1">
@@ -459,7 +459,7 @@
           <mxGeometry x="80" y="180" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-259" value="mip-sjh-basis-download" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=14;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="555" y="180" width="170" height="20" as="geometry" />
+          <mxGeometry x="560" y="180" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_I2nfff96B0rnVyIfxpO-260" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;jumpStyle=gap;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
