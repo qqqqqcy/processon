@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T12:52:55.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="3Z35ThZVUWIYcYba_NIi" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T12:30:27.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="TDELx1cpgDyMMYO8gNI3" version="16.2.2" type="github">
   <diagram id="g-wmrdmSEVreQeuAVKSN" name="Page-1">
-    <mxGraphModel dx="1563" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="eH6e8tO8jj5NWth7ZRgm-2" value="组件&lt;br&gt;beforeMount 阶段" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eH6e8tO8jj5NWth7ZRgm-4" value="&lt;span&gt;TODO&lt;/span&gt;&lt;br&gt;&lt;span&gt;能否计算 从 html 加载完到 created 的时间&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="640" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eH6e8tO8jj5NWth7ZRgm-5" value="模板对应骨架图&lt;br&gt;渲染完成" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="840" y="450" width="120" height="60" as="geometry" />
