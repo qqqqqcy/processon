@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T09:31:49.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="S-49HKbp9NQg7MAi-4AY" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T09:34:28.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="Cw6tb3PLg-_3kqSy_2KQ" version="16.6.2" type="github">
   <diagram id="shPuRvnbsVF6WhxULCdj" name="Page-1">
-    <mxGraphModel dx="1633" dy="2787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1996" dy="3038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,11 +123,11 @@
             <mxPoint x="470" y="-1340.45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j5IxVmobz6tXkS5KlH38-6" value="升级前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-1080" width="100" height="30" as="geometry" />
+        <mxCell id="j5IxVmobz6tXkS5KlH38-6" value="升级前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-1070" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j5IxVmobz6tXkS5KlH38-7" value="升级后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="730" y="-1080" width="100" height="30" as="geometry" />
+        <mxCell id="j5IxVmobz6tXkS5KlH38-7" value="升级后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-1070" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
