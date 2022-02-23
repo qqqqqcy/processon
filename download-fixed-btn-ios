@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T09:34:28.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="Cw6tb3PLg-_3kqSy_2KQ" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T09:36:01.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="lZYPYM-efQIPUAj__npE" version="16.6.2" type="github">
   <diagram id="shPuRvnbsVF6WhxULCdj" name="Page-1">
-    <mxGraphModel dx="1996" dy="3038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1283" dy="2544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
         <mxCell id="ENQRL792s32XrTcjk-YK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ENQRL792s32XrTcjk-YK-13" target="ENQRL792s32XrTcjk-YK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ENQRL792s32XrTcjk-YK-13" value="请求接口&lt;br&gt;获取最新 APP 信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="ENQRL792s32XrTcjk-YK-13" value="请求接口&lt;br&gt;获取 APP 信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1100" y="-950" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ENQRL792s32XrTcjk-YK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ENQRL792s32XrTcjk-YK-17" target="ENQRL792s32XrTcjk-YK-18" edge="1">
@@ -81,8 +81,8 @@
         <mxCell id="ENQRL792s32XrTcjk-YK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="ENQRL792s32XrTcjk-YK-34" target="ENQRL792s32XrTcjk-YK-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ENQRL792s32XrTcjk-YK-34" value="请求接口&lt;br&gt;获取最新 APP 信息、&lt;br&gt;AppStore 相关信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-630" width="119" height="50" as="geometry" />
+        <mxCell id="ENQRL792s32XrTcjk-YK-34" value="请求接口&lt;br&gt;获取 APP 信息、&lt;br&gt;AppStore 相关信息&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;（星级、描述...）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="-630" width="119" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ENQRL792s32XrTcjk-YK-36" value="使用&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;最新&lt;/font&gt;&lt;/b&gt;数据&lt;br&gt;展示 APP 相关信息&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;图标、名称...&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1320" y="-700" width="120" height="50" as="geometry" />
