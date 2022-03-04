@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T07:20:21.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="czbdmDld5DkORpC_ysQX" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T07:20:32.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="cIdm9TyKUInRKOE2Pagz" version="16.6.2" type="github">
   <diagram id="SPSlFT2sZeRu8J8Mqurk" name="Page-1">
-    <mxGraphModel dx="641" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1382" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,13 +77,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-38" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="120" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T0gfE41if6vC12bEkVcH-39" target="T0gfE41if6vC12bEkVcH-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="480" y="690" />
               <mxPoint x="480" y="590" />
-              <mxPoint x="480" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -94,19 +94,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-39" value="依据 querys、props&lt;br&gt;确定当前模板" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-41" value="渲染骨架图" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="460" width="160" height="60" as="geometry" />
+          <mxGeometry x="520" y="560" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T0gfE41if6vC12bEkVcH-43" target="T0gfE41if6vC12bEkVcH-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-43" value="请求&lt;b&gt;接口&lt;/b&gt;&lt;br&gt;获取物料" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="560" width="160" height="60" as="geometry" />
+          <mxGeometry x="520" y="660" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-46" value="依据模板&lt;br&gt;预加载所需的&lt;b&gt;样式组件&lt;br&gt;&lt;/b&gt;loadAndRegisteWidgets" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="660" width="160" height="60" as="geometry" />
+          <mxGeometry x="520" y="760" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T0gfE41if6vC12bEkVcH-48" target="T0gfE41if6vC12bEkVcH-50">
           <mxGeometry relative="1" as="geometry" />
@@ -120,16 +120,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-48" value="请求成功" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="760" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="T0gfE41if6vC12bEkVcH-50" value="渲染兜底样式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="660" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="T0gfE41if6vC12bEkVcH-50" value="渲染兜底样式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-54" value="渲染对应的模板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-56" value="页面初始化设计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="740" width="100" height="20" as="geometry" />
+          <mxGeometry x="115" y="840" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
