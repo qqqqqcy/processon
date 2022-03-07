@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:15:35.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="6JOdBfHhBeLNMgHGMvpL" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T11:37:36.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="R9RY4TprtrsTqIzXXdZv" version="16.6.5" type="github">
   <diagram id="SPSlFT2sZeRu8J8Mqurk" name="Page-1">
     <mxGraphModel dx="998" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
         <mxCell id="T0gfE41if6vC12bEkVcH-43" value="请求&lt;b&gt;接口&lt;/b&gt;&lt;br&gt;获取物料" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="520" y="660" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T0gfE41if6vC12bEkVcH-46" value="依据模板&lt;br&gt;预加载所需的&lt;b&gt;样式组件&lt;br&gt;&lt;/b&gt;loadAndRegisteWidgets" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="T0gfE41if6vC12bEkVcH-46" value="依据模板&lt;br&gt;预加载所需的&lt;b&gt;样式组件&lt;br&gt;&lt;/b&gt;loadAndRegisteWidget" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="520" y="760" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T0gfE41if6vC12bEkVcH-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T0gfE41if6vC12bEkVcH-48" target="T0gfE41if6vC12bEkVcH-50" edge="1">
